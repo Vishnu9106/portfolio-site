@@ -12,14 +12,13 @@ const Collaboration = () => {
           
           <div className="collab-typography">
             <h2 className="collab-statement">
-              <span className="collab-dim">Great marketing</span> doesn't happen in silos.
+              <span className="collab-dim">Revenue engines</span> don't build themselves.
             </h2>
             
             <p className="collab-paragraph">
               For 6 years, I've served as the <span className="collab-highlight">connective tissue</span> between Tech, Sales, and Marketing. 
-              Whether it's building <span className="collab-highlight">Sales Enablement</span> catalogues, 
-              designing <span className="collab-highlight">Competitive Decks</span>, or executing targeted <span className="collab-highlight">Account-Based Marketing</span> and <span className="collab-highlight">Webinar Outreach</span>, 
-              I ensure our messaging resonates at every touchpoint of the buyer's journey.
+              As a GTM Engineer, I don't just run campaigns—I build the <span className="collab-highlight">Data Pipelines</span>, 
+              automate the <span className="collab-highlight">CRM Workflows</span>, and architect the <span className="collab-highlight">Revenue Operations</span> that empower sales teams to close enterprise deals faster.
             </p>
             {/* Enhanced Hub-and-Spoke Diagram */}
             <div style={{ position: 'relative', width: '100%', maxWidth: '600px', aspectRatio: '1/1', margin: '3rem auto 1rem' }}>
