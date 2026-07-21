@@ -1,38 +1,30 @@
 import React from 'react';
 import { useInView } from '../App';
 import { Database, Target, Search, Mail, Bot, BrainCircuit, Network, Webhook } from 'lucide-react';
-import { SiApollographql, SiMake, SiN8N, SiHubspot, SiPython, SiJavascript, SiSupabase, SiJson } from 'react-icons/si';
+import { SiApollographql, SiN8N, SiHubspot, SiJavascript, SiJson, SiReact } from 'react-icons/si';
 
 const tools = [
-  { name: 'Clay', icon: <Database size={22} color="#000000" /> },
   { name: 'Apollo.io', icon: <SiApollographql size={22} color="#FF5A5F" /> },
-  { name: 'Dropcontact / Hunter.io', icon: <Target size={22} color="#FF4500" /> },
-  { name: 'ZoomInfo API', icon: <Search size={22} color="#1F82C0" /> },
-  { name: 'Make.com', icon: <SiMake size={22} color="#7E3AF2" /> },
   { name: 'n8n', icon: <SiN8N size={22} color="#EA4335" /> },
   { name: 'HubSpot', icon: <SiHubspot size={22} color="#FF7A59" /> },
-  { name: 'Outreach / Reply.io', icon: <Mail size={22} color="#2A73B6" /> },
-  { name: 'OpenAI API', icon: <Bot size={22} color="#10A37F" /> },
   { name: 'Anthropic (Claude)', icon: <BrainCircuit size={22} color="#D97757" /> },
-  { name: 'Python', icon: <SiPython size={22} color="#3776AB" /> },
-  { name: 'JavaScript', icon: <SiJavascript size={22} color="#F7DF1E" /> },
-  { name: 'SQL', icon: <Database size={22} color="#4479A1" /> },
-  { name: 'Supabase (PostgreSQL)', icon: <SiSupabase size={22} color="#3ECF8E" /> },
-  { name: 'REST APIs', icon: <Network size={22} color="#00A2D0" /> },
   { name: 'Webhooks', icon: <Webhook size={22} color="#5C2D91" /> },
-  { name: 'JSON', icon: <SiJson size={22} color="#000000" /> }
+  { name: 'REST APIs', icon: <Network size={22} color="#00A2D0" /> },
+  { name: 'JSON', icon: <SiJson size={22} color="#000000" /> },
+  { name: 'JavaScript', icon: <SiJavascript size={22} color="#F7DF1E" /> },
+  { name: 'React', icon: <SiReact size={22} color="#61DAFB" /> }
 ];
 
 const Toolkit = () => {
   const [ref, visible] = useInView();
 
   return (
-    <section id="toolkit" style={{ padding: '8rem 0', background: 'var(--off-white)', position: 'relative' }}>
+    <section id="toolkit" style={{ padding: '4rem 0 8rem 0', background: 'var(--off-white)', position: 'relative' }}>
       <div className="container">
         <div ref={ref} className={`fade-up ${visible ? 'visible' : ''}`}>
 
           
-          <h2 style={{ textAlign: 'center', fontSize: 'clamp(2rem, 4vw, 2.75rem)', marginBottom: '4rem', color: 'var(--deep-dark)', fontWeight: 800, letterSpacing: '-0.02em' }}>
+          <h2 style={{ textAlign: 'center', marginBottom: '4rem', color: 'var(--deep-dark)', fontWeight: 600, letterSpacing: '-0.02em' }}>
             My Tech Stack
           </h2>
 
