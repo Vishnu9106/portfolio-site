@@ -18,6 +18,7 @@ const projects = [
     level: 'Intermediate',
     title: '2. Instant Inbound Routing & Deduplication',
     image: project2Img,
+    loomLink: 'https://www.loom.com/share/a23b2846c6d0471fa692e884cbbad198',
     desc: "An n8n workflow that connects inbound leads directly to an Apollo email campaign. It handles webhook routing to check if a contact already exists, creates a new record via API if they don't, and automatically enrolls them into a specific sales sequence without manual data entry."
   },
   {
