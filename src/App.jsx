@@ -97,7 +97,6 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToHash />
-      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projectflow" element={<ProjectFlowDemo />} />

@@ -14,6 +14,7 @@ const Hero = () => {
         display: 'flex',
         alignItems: 'center',
         paddingTop: '5rem',
+        paddingBottom: '12vh',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -64,9 +65,28 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="scroll-indicator">
-        <div className="scroll-indicator-line" />
+      {/* Scroll down indicator */}
+      <div 
+        style={{
+          position: 'absolute',
+          bottom: '2.5rem',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '0.5rem',
+          color: 'var(--mid-gray)',
+          opacity: 0.7,
+          transition: 'opacity 0.3s ease',
+          cursor: 'pointer'
+        }}
+        onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+        onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+        onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
+      >
+        <span style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase' }}>Scroll</span>
+        <ArrowDown size={20} />
       </div>
     </section>
   );
