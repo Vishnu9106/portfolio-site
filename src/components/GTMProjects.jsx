@@ -47,7 +47,7 @@ export default function GTMProjects() {
 
           <h2 style={{ textAlign: 'center' }}>Go-To-Market Projects</h2>
           <p style={{ maxWidth: '650px', margin: '0 auto 4rem auto', textAlign: 'center' }}>
-            High-level strategic initiatives orchestrating product launches, sales enablement, and market positioning across the entire customer lifecycle.
+            Real automation projects that show how I think about finding leads, keeping data clean, and getting the right information to sales at the right time.
           </p>
         </div>
 
