@@ -10,14 +10,14 @@ const sections = [
     desc: 'Engaging, swipeable content designed for social reach and thought leadership.',
     samples: [
       {
-        title: 'LinkedIn Carousel 1',
+        title: 'HeadSpin Video Experience Metrics',
         url: 'https://drive.google.com/file/d/1vviALeWrqktbJoHA63acqDkY66bU0Tvv/view?usp=drive_link',
-        desc: 'Engaging, swipeable LinkedIn carousel designed to drive engagement and thought leadership.'
+        desc: 'This carousel covers key performance indicators utilized by HeadSpin to help streaming platforms monitor and improve video quality.'
       },
       {
-        title: 'LinkedIn Carousel 2',
+        title: 'Key Challenges in Banking App Testing',
         url: 'https://drive.google.com/file/d/1jbv9RsAjkpOTojKRWfKB0l0Ae6u4wMCc/view?usp=drive_link',
-        desc: 'High-impact social carousel breaking down complex value propositions for LinkedIn.'
+        desc: 'This carousel outlines the primary challenges encountered by QA teams when testing banking applications.'
       }
     ]
   },
