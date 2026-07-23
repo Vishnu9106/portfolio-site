@@ -3,36 +3,32 @@ import { useInView } from '../App';
 
 const milestones = [
   {
-    year: '2018',
+    year: 'Apr 2022 - Feb 2023',
     company: 'AblySoft',
-    role: 'Content & Marketing Associate',
-    highlight: 'Started the journey — learned how enterprise SaaS is positioned, messaged, and sold from the ground up.',
+    role: 'Technical Content Writer',
+    highlight: 'Produced blogs, eBooks, and HTML mailers while authoring end-user technical content and onboarding materials.',
     color: '#F43F5E', // Rose
-    initial: 'A'
   },
   {
-    year: '2020',
+    year: 'Feb 2023 - Mar 2024',
     company: 'Grazitti Interactive',
-    role: 'Content Marketing Specialist',
-    highlight: 'Built the content engine from scratch — scaled blogs, ebooks, whitepapers, and customer case studies.',
+    role: 'Content Writer',
+    highlight: 'Wrote marketing collateral for Salesforce products, moderated global communities, and broke down complex technical information.',
     color: '#EAB308', // Yellow
-    initial: 'G'
   },
   {
-    year: '2022',
-    company: 'Opstree',
-    role: 'Senior Content Marketing Specialist',
-    highlight: 'Led C-suite presentations, high-stakes enterprise case studies, and cross-functional sales enablement assets.',
+    year: 'Apr 2024 - Nov 2024',
+    company: 'OpsTree Solutions',
+    role: 'Technical Content Writer',
+    highlight: 'Developed content strategies aligned with marketing goals, highlighting DevOps best practices across blogs and whitepapers.',
     color: '#0EA5E9', // Sky Blue
-    initial: 'B'
   },
   {
-    year: '2024',
+    year: 'Dec 2024 - Present',
     company: 'HeadSpin',
-    role: 'GTM & RevOps',
-    highlight: 'Taking 6 years of cross-functional expertise into a founding GTM role to build the revenue engine.',
+    role: 'Technical Content Writer',
+    highlight: 'Writing marketing-led technical blogs and product microcopy that position testing offerings around real customer problems.',
     color: '#F97316', // Orange
-    initial: 'H',
     current: true,
   },
 ];
