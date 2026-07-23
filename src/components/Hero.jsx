@@ -22,10 +22,10 @@ const Hero = () => {
       <div className="container" style={{ position: 'relative', zIndex: 2, width: '100%' }} ref={ref}>
         <div className={`hero-content ${visible ? 'hero-visible' : ''}`} style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
 
-          {/* Name with staggered animation */}
+          {/* Name with creative hover interaction */}
           <h1 className="hero-name" style={{ justifyContent: 'center', display: 'flex' }}>
-            <span className="hero-name-line" style={{ justifyContent: 'center', display: 'flex', flexWrap: 'wrap' }}>
-              <span className="hero-name-word" style={{
+            <span className="hero-name-line name-group" style={{ justifyContent: 'center', display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+              <span className="hero-name-word name-first" style={{
                 background: 'linear-gradient(135deg, var(--accent) 0%, #F43F5E 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
@@ -34,17 +34,18 @@ const Hero = () => {
               <img 
                 src={heroImage} 
                 alt="Vishnu" 
+                className="name-avatar"
                 style={{ 
-                  height: '0.9em', 
-                  width: '0.9em', 
+                  height: '0.95em', 
+                  width: '0.95em', 
                   borderRadius: '50%', 
                   objectFit: 'cover', 
-                  margin: '0 0.15em',
+                  margin: '0 0.2em',
                   transform: 'translateY(0.05em)',
                   boxShadow: '0 8px 24px rgba(249, 115, 22, 0.2)'
                 }} 
               />
-              <span className="hero-name-word" style={{ color: 'var(--deep-dark)' }}>Dass</span>
+              <span className="hero-name-word name-last" style={{ color: 'var(--deep-dark)' }}>Dass</span>
             </span>
           </h1>
 
