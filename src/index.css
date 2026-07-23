@@ -1335,3 +1335,10 @@ section {
 .name-group:hover .name-last { transform: translateX(8px) rotate(2deg); }
 .name-group:hover .name-avatar { transform: scale(1.15) rotate(5deg); box-shadow: 0 15px 35px rgba(249, 115, 22, 0.3); border-color: var(--accent); }
 
+
+@keyframes travelDown {
+  0% { transform: translateY(-100%); }
+  50% { transform: translateY(300%); }
+  100% { transform: translateY(300%); }
+}
+

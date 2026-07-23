@@ -66,42 +66,48 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll down indicator */}
+      {/* Creative Scroll Indicator: Traveling Dot */}
       <div 
         style={{
           position: 'absolute',
-          bottom: '2.5rem',
+          bottom: '0',
           left: '50%',
           transform: 'translateX(-50%)',
           display: 'flex',
-          flexDirection: 'row',
+          flexDirection: 'column',
           alignItems: 'center',
-          gap: '0.5rem',
-          color: 'var(--deep-dark)',
           cursor: 'pointer',
-          padding: '0.75rem 1.25rem',
-          borderRadius: '100px',
-          background: 'var(--white)',
-          boxShadow: '0 8px 24px rgba(0,0,0,0.06)',
-          border: '1px solid var(--light-gray)',
-          transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)'
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.transform = 'translateX(-50%) translateY(6px)';
-          e.currentTarget.style.boxShadow = '0 12px 32px rgba(249,115,22,0.15)';
-          e.currentTarget.style.borderColor = 'var(--accent-border)';
-          e.currentTarget.style.color = 'var(--accent)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.transform = 'translateX(-50%) translateY(0)';
-          e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.06)';
-          e.currentTarget.style.borderColor = 'var(--light-gray)';
-          e.currentTarget.style.color = 'var(--deep-dark)';
+          paddingBottom: '0rem'
         }}
         onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
       >
-        <span style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase' }}>Scroll</span>
-        <ArrowDown size={18} />
+        <span style={{ 
+          fontSize: '0.65rem', 
+          fontWeight: 700, 
+          letterSpacing: '0.25em', 
+          textTransform: 'uppercase',
+          color: 'var(--mid-gray)',
+          writingMode: 'vertical-rl',
+          transform: 'rotate(180deg)',
+          marginBottom: '1.2rem',
+          opacity: 0.6
+        }}>
+          Explore
+        </span>
+        <div style={{
+          width: '1px',
+          height: '60px',
+          background: 'rgba(0,0,0,0.1)',
+          position: 'relative',
+          overflow: 'hidden'
+        }}>
+          <div style={{
+            width: '100%',
+            height: '25px',
+            background: 'var(--accent)',
+            animation: 'travelDown 1.8s cubic-bezier(0.77, 0, 0.175, 1) infinite'
+          }}></div>
+        </div>
       </div>
     </section>
   );
