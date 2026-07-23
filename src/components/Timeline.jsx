@@ -3,28 +3,28 @@ import { useInView } from '../App';
 
 const milestones = [
   {
-    year: 'Apr 2022 - Feb 2023',
+    year: '2022',
     company: 'AblySoft',
     role: 'Technical Content Writer',
     highlight: 'Produced blogs, eBooks, and HTML mailers while authoring end-user technical content and onboarding materials.',
     color: '#F43F5E', // Rose
   },
   {
-    year: 'Feb 2023 - Mar 2024',
+    year: '2023',
     company: 'Grazitti Interactive',
     role: 'Content Writer',
     highlight: 'Wrote marketing collateral for Salesforce products, moderated global communities, and broke down complex technical information.',
     color: '#EAB308', // Yellow
   },
   {
-    year: 'Apr 2024 - Nov 2024',
+    year: '2024',
     company: 'OpsTree Solutions',
     role: 'Technical Content Writer',
     highlight: 'Developed content strategies aligned with marketing goals, highlighting DevOps best practices across blogs and whitepapers.',
     color: '#0EA5E9', // Sky Blue
   },
   {
-    year: 'Dec 2024 - Present',
+    year: '2024',
     company: 'HeadSpin',
     role: 'Technical Content Writer',
     highlight: 'Writing marketing-led technical blogs and product microcopy that position testing offerings around real customer problems.',
