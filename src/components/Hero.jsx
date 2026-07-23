@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Download } from 'lucide-react';
+import heroImage from '../assets/hero.jpg';
 import { useInView } from '../App';
 
 const Hero = () => {
@@ -28,7 +29,20 @@ const Hero = () => {
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text'
-              }}>Vishnu</span>{' '}
+              }}>Vishnu</span>
+              <img 
+                src={heroImage} 
+                alt="Vishnu" 
+                style={{ 
+                  height: '0.9em', 
+                  width: '0.9em', 
+                  borderRadius: '50%', 
+                  objectFit: 'cover', 
+                  margin: '0 0.15em',
+                  transform: 'translateY(0.05em)',
+                  boxShadow: '0 8px 24px rgba(249, 115, 22, 0.2)'
+                }} 
+              />
               <span className="hero-name-word hero-name-outline">Dass</span>
               <span className="hero-name-word hero-name-dot">.</span>
             </span>
