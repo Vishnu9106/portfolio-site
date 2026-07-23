@@ -94,6 +94,11 @@ const sections = [
     desc: 'End-to-end event promotion, live coverage, and post-event engagement strategies driving booth traffic and brand awareness.',
     samples: [
       {
+        title: 'HeadSpin Standee for Events',
+        url: 'https://drive.google.com/file/d/122bBU9HPZ5GrD6VraBgcwVVWCPJevItZ/view?usp=drive_link',
+        desc: 'Comprehensive event coverage and marketing execution breakdown.'
+      },
+      {
         title: 'MWC Barcelona 2025 Campaign',
         url: 'https://www.linkedin.com/posts/meet-headspin-at-mwc-barcelona-2025-ugcPost-7297559703750918144-DVU-/',
         desc: 'Pre-event promotional campaign driving meeting bookings and booth traffic for MWC.'
@@ -113,16 +118,6 @@ const sections = [
         url: 'https://www.linkedin.com/posts/headspin_headspin-headspinace-aitesting-activity-7478103898348539904-JCYQ/',
         desc: 'Product marketing and event coverage focusing on AI in testing capabilities.'
       },
-      {
-        title: 'Event Marketing Resource 1',
-        url: 'https://drive.google.com/file/d/1vI8twsQ47_oMj_t6rMO5wvIKZ23xSPJj/view?usp=drive_link',
-        desc: 'Additional event marketing collateral and strategy document.'
-      },
-      {
-        title: 'Event Marketing Resource 2',
-        url: 'https://drive.google.com/file/d/122bBU9HPZ5GrD6VraBgcwVVWCPJevItZ/view?usp=drive_link',
-        desc: 'Comprehensive event coverage and marketing execution breakdown.'
-      }
     ]
   },
   {
