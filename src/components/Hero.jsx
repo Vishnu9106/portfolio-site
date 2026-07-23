@@ -41,7 +41,7 @@ const Hero = () => {
                   width: '1.15em', 
                   borderRadius: '50%', 
                   objectFit: 'cover', 
-                  margin: '0 -0.15em', // Creates the overlap effect
+                  margin: '0 0.05em', // Keeps it snug without hiding the letters
                   transform: 'translateY(0.08em) rotate(-4deg)', // Slight playful tilt
                   boxShadow: '0 15px 35px rgba(249, 115, 22, 0.25)',
                   border: '4px solid var(--white)',
