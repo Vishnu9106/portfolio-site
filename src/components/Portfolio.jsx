@@ -38,9 +38,9 @@ const sections = [
         desc: 'Infrastructure overview page explaining the scale and security of the global device cloud network to technical decision makers.'
       },
       {
-        title: 'TEM (Telecom Expense Management)',
+        title: 'HeadSpin Test Execution Management (TEM)',
         url: 'https://www.headspin.io/tem',
-        desc: 'Solution page targeting telecom expense management, outlining value propositions and ROI for enterprise clients.'
+        desc: 'HeadSpin TEM centralizes mobile test execution, allowing teams to upload apps and tests to a single platform and execute them directly from the cloud.'
       },
       {
         title: 'Deployment Models',
