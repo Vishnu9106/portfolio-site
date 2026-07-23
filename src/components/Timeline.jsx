@@ -20,7 +20,7 @@ const milestones = [
   },
   {
     year: '2022',
-    company: 'BuildPiper',
+    company: 'Opstree',
     role: 'Senior Content Marketing Specialist',
     highlight: 'Led C-suite presentations, high-stakes enterprise case studies, and cross-functional sales enablement assets.',
     color: '#0EA5E9', // Sky Blue
@@ -86,13 +86,7 @@ const Timeline = () => {
               <div className="horizontal-node-year" style={{ color: m.color }}>{m.year}</div>
               <div className="horizontal-node-card" style={{ borderTop: `2px solid ${m.color}`, boxShadow: m.current ? `0 -2px 20px rgba(249, 115, 22, 0.15)` : 'none' }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', marginBottom: '1rem' }}>
-                  <div style={{
-                    width: '38px', height: '38px', minWidth: '38px', borderRadius: '10px',
-                    background: 'rgba(255,255,255,0.06)', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontSize: '1.1rem', fontWeight: 700, color: 'var(--white)', border: '1px solid rgba(255,255,255,0.12)'
-                  }}>
-                    {m.initial}
-                  </div>
+
                   <div>
                     <h3 style={{ marginBottom: '0.2rem', fontSize: '1.15rem', lineHeight: '1.2', color: 'var(--white)' }}>{m.role}</h3>
                     <div style={{ fontSize: '0.85rem', color: m.color, fontWeight: 600, letterSpacing: '0.02em' }}>{m.company}</div>
