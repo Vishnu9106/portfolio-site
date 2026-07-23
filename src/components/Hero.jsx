@@ -82,28 +82,28 @@ const Hero = () => {
         onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
       >
         <span style={{ 
-          fontSize: '0.65rem', 
-          fontWeight: 700, 
+          fontSize: '0.8rem', 
+          fontWeight: 800, 
           letterSpacing: '0.25em', 
           textTransform: 'uppercase',
-          color: 'var(--mid-gray)',
+          color: 'var(--deep-dark)',
           writingMode: 'vertical-rl',
           transform: 'rotate(180deg)',
           marginBottom: '1.2rem',
-          opacity: 0.6
+          opacity: 1
         }}>
           Explore
         </span>
         <div style={{
-          width: '1px',
-          height: '60px',
-          background: 'rgba(0,0,0,0.1)',
+          width: '2px',
+          height: '70px',
+          background: 'var(--light-gray)',
           position: 'relative',
           overflow: 'hidden'
         }}>
           <div style={{
             width: '100%',
-            height: '25px',
+            height: '30px',
             background: 'var(--accent)',
             animation: 'travelDown 1.8s cubic-bezier(0.77, 0, 0.175, 1) infinite'
           }}></div>
