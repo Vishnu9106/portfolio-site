@@ -22,30 +22,38 @@ const Hero = () => {
       <div className="container" style={{ position: 'relative', zIndex: 2, width: '100%' }} ref={ref}>
         <div className={`hero-content ${visible ? 'hero-visible' : ''}`} style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
 
-          {/* Name with creative hover interaction */}
+          {/* Name with editorial overlapping layout (no hover) */}
           <h1 className="hero-name" style={{ justifyContent: 'center', display: 'flex' }}>
-            <span className="hero-name-line name-group" style={{ justifyContent: 'center', display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
-              <span className="hero-name-word name-first" style={{
+            <span className="hero-name-line" style={{ justifyContent: 'center', display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+              <span className="hero-name-word" style={{
                 background: 'linear-gradient(135deg, var(--accent) 0%, #F43F5E 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text'
+                backgroundClip: 'text',
+                position: 'relative',
+                zIndex: 1
               }}>Vishnu</span>
               <img 
                 src={heroImage} 
                 alt="Vishnu" 
-                className="name-avatar"
                 style={{ 
-                  height: '0.95em', 
-                  width: '0.95em', 
+                  height: '1.15em', 
+                  width: '1.15em', 
                   borderRadius: '50%', 
                   objectFit: 'cover', 
-                  margin: '0 0.2em',
-                  transform: 'translateY(0.05em)',
-                  boxShadow: '0 8px 24px rgba(249, 115, 22, 0.2)'
+                  margin: '0 -0.15em', // Creates the overlap effect
+                  transform: 'translateY(0.08em) rotate(-4deg)', // Slight playful tilt
+                  boxShadow: '0 15px 35px rgba(249, 115, 22, 0.25)',
+                  border: '4px solid var(--white)',
+                  position: 'relative',
+                  zIndex: 2 // Sits above the text
                 }} 
               />
-              <span className="hero-name-word name-last" style={{ color: 'var(--deep-dark)' }}>Dass</span>
+              <span className="hero-name-word" style={{ 
+                color: 'var(--deep-dark)',
+                position: 'relative',
+                zIndex: 1
+              }}>Dass</span>
             </span>
           </h1>
 
