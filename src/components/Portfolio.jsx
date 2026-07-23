@@ -4,34 +4,6 @@ import { ChevronDown, ChevronUp, FileText, Megaphone, Users, Layout, Layers, Vid
 
 const sections = [
   {
-    id: 'case-studies',
-    icon: <FileText size={24} />,
-    title: 'Case Studies',
-    desc: 'Deep-dive technical content that drives enterprise pipeline. This section features long-form assets that break down complex technical value propositions for a B2B audience.',
-    samples: [
-      {
-        title: 'Enterprise Case Study 1',
-        url: 'https://drive.google.com/file/d/1Io-OMWFHOABeShEa1GXg7_piFoUFTgB2/view?usp=drive_link',
-        desc: 'In-depth case study demonstrating technical value, ROI, and enterprise impact.'
-      },
-      {
-        title: 'Enterprise Case Study 2',
-        url: 'https://drive.google.com/file/d/1ahxg0taprYRFApmptBFjoNLHpBDxz_K_/view?usp=drive_link',
-        desc: 'Comprehensive technical overview highlighting key client solutions and outcomes.'
-      },
-      {
-        title: 'Multi-Vendor Rental Marketplace Case Study',
-        url: 'https://www.yo-rent.com/multi-vendor-rental-marketplace-case-study.html',
-        desc: 'Detailed breakdown of a multi-vendor rental marketplace deployment, highlighting scale and efficiency.'
-      },
-      {
-        title: 'Heavy Equipment Rental Marketplace Case Study',
-        url: 'https://www.yo-rent.com/heavy-equipment-rental-marketplace-case-study.html',
-        desc: 'In-depth analysis of a heavy equipment rental solution, outlining ROI and platform capabilities.'
-      }
-    ]
-  },
-  {
     id: 'linkedin-carousels',
     icon: <Layers size={24} />,
     title: 'LinkedIn Carousels',
@@ -46,6 +18,34 @@ const sections = [
         title: 'LinkedIn Carousel 2',
         url: 'https://drive.google.com/file/d/1jbv9RsAjkpOTojKRWfKB0l0Ae6u4wMCc/view?usp=drive_link',
         desc: 'High-impact social carousel breaking down complex value propositions for LinkedIn.'
+      }
+    ]
+  },
+  {
+    id: 'landing-pages',
+    icon: <Layout size={24} />,
+    title: 'Landing Pages',
+    desc: 'High-converting, technically accurate landing pages designed to drive product-led growth and capture enterprise leads.',
+    samples: [
+      {
+        title: 'Waterfall UI',
+        url: 'https://www.headspin.io/features/waterfall-ui',
+        desc: 'Detailed feature page breaking down the Waterfall UI capabilities, highlighting performance testing visibility for engineering teams.'
+      },
+      {
+        title: 'Global Device Infrastructure',
+        url: 'https://www.headspin.io/global-device-infrastructure',
+        desc: 'Infrastructure overview page explaining the scale and security of the global device cloud network to technical decision makers.'
+      },
+      {
+        title: 'TEM (Telecom Expense Management)',
+        url: 'https://www.headspin.io/tem',
+        desc: 'Solution page targeting telecom expense management, outlining value propositions and ROI for enterprise clients.'
+      },
+      {
+        title: 'Deployment Models',
+        url: 'https://www.headspin.io/solutions/deployment-models',
+        desc: 'Technical solutions page comparing on-prem, cloud, and hybrid deployment models to assist in architectural decisions.'
       }
     ]
   },
@@ -88,41 +88,6 @@ const sections = [
     ]
   },
   {
-    id: 'sales-enablement',
-    icon: <Users size={24} />,
-    title: 'Sales Enablement',
-    desc: 'Playbooks and battlecards for revenue teams. Practical, fast-consumption assets empowering sales to win more enterprise deals.'
-  },
-  {
-    id: 'landing-pages',
-    icon: <Layout size={24} />,
-    title: 'Landing Pages',
-    desc: 'High-converting, technically accurate landing pages designed to drive product-led growth and capture enterprise leads.',
-    samples: [
-      {
-        title: 'Waterfall UI',
-        url: 'https://www.headspin.io/features/waterfall-ui',
-        desc: 'Detailed feature page breaking down the Waterfall UI capabilities, highlighting performance testing visibility for engineering teams.'
-      },
-      {
-        title: 'Global Device Infrastructure',
-        url: 'https://www.headspin.io/global-device-infrastructure',
-        desc: 'Infrastructure overview page explaining the scale and security of the global device cloud network to technical decision makers.'
-      },
-      {
-        title: 'TEM (Telecom Expense Management)',
-        url: 'https://www.headspin.io/tem',
-        desc: 'Solution page targeting telecom expense management, outlining value propositions and ROI for enterprise clients.'
-      },
-      {
-        title: 'Deployment Models',
-        url: 'https://www.headspin.io/solutions/deployment-models',
-        desc: 'Technical solutions page comparing on-prem, cloud, and hybrid deployment models to assist in architectural decisions.'
-      }
-    ]
-  },
-
-  {
     id: 'event-marketing',
     icon: <Calendar size={24} />,
     title: 'Event Marketing',
@@ -159,6 +124,40 @@ const sections = [
         desc: 'Comprehensive event coverage and marketing execution breakdown.'
       }
     ]
+  },
+  {
+    id: 'sales-enablement',
+    icon: <Users size={24} />,
+    title: 'Sales Enablement',
+    desc: 'Playbooks and battlecards for revenue teams. Practical, fast-consumption assets empowering sales to win more enterprise deals.'
+  },
+  {
+    id: 'case-studies',
+    icon: <FileText size={24} />,
+    title: 'Case Studies',
+    desc: 'Deep-dive technical content that drives enterprise pipeline. This section features long-form assets that break down complex technical value propositions for a B2B audience.',
+    samples: [
+      {
+        title: 'Enterprise Case Study 1',
+        url: 'https://drive.google.com/file/d/1Io-OMWFHOABeShEa1GXg7_piFoUFTgB2/view?usp=drive_link',
+        desc: 'In-depth case study demonstrating technical value, ROI, and enterprise impact.'
+      },
+      {
+        title: 'Enterprise Case Study 2',
+        url: 'https://drive.google.com/file/d/1ahxg0taprYRFApmptBFjoNLHpBDxz_K_/view?usp=drive_link',
+        desc: 'Comprehensive technical overview highlighting key client solutions and outcomes.'
+      },
+      {
+        title: 'Multi-Vendor Rental Marketplace Case Study',
+        url: 'https://www.yo-rent.com/multi-vendor-rental-marketplace-case-study.html',
+        desc: 'Detailed breakdown of a multi-vendor rental marketplace deployment, highlighting scale and efficiency.'
+      },
+      {
+        title: 'Heavy Equipment Rental Marketplace Case Study',
+        url: 'https://www.yo-rent.com/heavy-equipment-rental-marketplace-case-study.html',
+        desc: 'In-depth analysis of a heavy equipment rental solution, outlining ROI and platform capabilities.'
+      }
+    ]
   }
 ];
 
@@ -179,7 +178,7 @@ const Portfolio = () => {
       <div className="container">
         <div ref={ref} className={`fade-up ${visible ? 'visible' : ''}`}>
 
-          <h2 style={{ color: 'var(--deep-dark)' }}>Portfolio & Samples</h2>
+          <h2 style={{ color: 'var(--deep-dark)' }}>Marketing Content Samples</h2>
           <p style={{ maxWidth: '650px', marginBottom: '3rem', color: 'var(--dark-gray)' }}>
             Explore my work across various content formats and marketing channels. 
             Click on any section to view the live projects.
