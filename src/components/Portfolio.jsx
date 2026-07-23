@@ -225,9 +225,7 @@ const Portfolio = () => {
                   transition: 'all 0.4s ease-in-out',
                   overflow: 'hidden'
                 }}>
-                  <div style={{ padding: '0 2rem 2rem 2rem' }}>
-                    <p style={{ color: 'var(--dark-gray)', marginBottom: '2rem', fontSize: '0.95rem' }}>{section.desc}</p>
-                    
+                  <div style={{ padding: '2rem' }}>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
                       {(section.samples || [1, 2, 3]).map((item, i) => (
                         section.samples ? (
