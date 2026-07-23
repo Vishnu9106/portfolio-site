@@ -20,18 +20,6 @@ const projects = [
     image: project2Img,
     loomLink: 'https://www.loom.com/share/a23b2846c6d0471fa692e884cbbad198',
     desc: "An n8n workflow that connects inbound leads directly to an Apollo email campaign. It handles webhook routing to check if a contact already exists, creates a new record via API if they don't, and automatically enrolls them into a specific sales sequence without manual data entry."
-  },
-  {
-    level: 'Advanced',
-    title: '3. Event-Driven Revenue Signal Pipeline',
-    image: project3Img,
-    desc: 'An event-driven pipeline that bridges our product database and sales stack. It detects user milestones (e.g., free-tier limits or feature adoption), queries the Apollo API to find the user’s manager, generates an AI-drafted "value-add" email based on that user\'s specific usage data, and queues the lead for the sales team in HubSpot.'
-  },
-  {
-    level: 'Advanced',
-    title: '4. GTM Spend & Revenue Tracker',
-    image: project4Img,
-    desc: 'A reporting pipeline built to track the exact ROI of marketing efforts. It syncs ad spend and CRM data into a central dashboard, showing leadership precisely which campaigns are generating revenue and which are wasting budget.'
   }
 ];
 
