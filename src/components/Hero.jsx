@@ -62,15 +62,7 @@ const Hero = () => {
             <strong>Always learning.</strong> A GTM engineer with an unfair marketing advantage. I have around 5 years of experience in content marketing. My expertise lies in building product messaging, creating marketing content, and tracking its performance. These days I am experimenting with building GTM systems that turn manual, repetitive work into automated pipelines.
           </p>
 
-          {/* CTAs */}
-          <div className="hero-ctas" style={{ justifyContent: 'center', display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '3rem' }}>
-            <a href="#contact" className="btn btn-dark btn-glow">
-              Let's Connect <ArrowDown size={18} />
-            </a>
-            <a href="#" className="btn btn-outline-dark">
-              <Download size={18} /> Download CV
-            </a>
-          </div>
+
         </div>
       </div>
 
@@ -82,9 +74,9 @@ const Hero = () => {
           left: '50%',
           transform: 'translateX(-50%)',
           display: 'flex',
-          flexDirection: 'column',
+          flexDirection: 'row',
           alignItems: 'center',
-          gap: '0.4rem',
+          gap: '0.5rem',
           color: 'var(--deep-dark)',
           cursor: 'pointer',
           padding: '0.75rem 1.25rem',
