@@ -49,8 +49,8 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="hero-subtitle" style={{ justifyContent: 'center', margin: '2rem auto', textAlign: 'center', display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-            <strong style={{ color: 'var(--deep-dark)' }}>GTM Engineer</strong> with an unfair marketing advantage.
+          <p className="hero-subtitle" style={{ margin: '2rem auto', textAlign: 'center', maxWidth: '650px', lineHeight: '1.7', color: 'var(--dark-gray)' }}>
+            <strong>Always learning.</strong> A GTM engineer with an unfair marketing advantage. I have around 5 years of experience in content marketing. My expertise lies in building product messaging, creating marketing content, and tracking its performance. These days I am experimenting with building GTM systems that turn manual, repetitive work into automated pipelines.
           </p>
 
           {/* CTAs */}
