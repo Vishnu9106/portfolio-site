@@ -121,26 +121,20 @@ const sections = [
     ]
   },
   {
-    id: 'sales-enablement',
-    icon: <Users size={24} />,
-    title: 'Sales Enablement',
-    desc: 'Playbooks and battlecards for revenue teams. Practical, fast-consumption assets empowering sales to win more enterprise deals.'
-  },
-  {
     id: 'case-studies',
     icon: <FileText size={24} />,
     title: 'Case Studies',
     desc: 'Deep-dive technical content that drives enterprise pipeline. This section features long-form assets that break down complex technical value propositions for a B2B audience.',
     samples: [
       {
-        title: 'Enterprise Case Study 1',
+        title: 'Advanced E2C Integration & Efficient Recipient Tracking in Salesforce',
         url: 'https://drive.google.com/file/d/1Io-OMWFHOABeShEa1GXg7_piFoUFTgB2/view?usp=drive_link',
-        desc: 'In-depth case study demonstrating technical value, ROI, and enterprise impact.'
+        desc: 'This case study outlines how Grazitti Interactive optimized case management for a renowned American software company based in San Francisco.'
       },
       {
-        title: 'Enterprise Case Study 2',
+        title: 'Enabling Salesforce CPQ & Billing Flow Testing for a Low Code Platform',
         url: 'https://drive.google.com/file/d/1ahxg0taprYRFApmptBFjoNLHpBDxz_K_/view?usp=drive_link',
-        desc: 'Comprehensive technical overview highlighting key client solutions and outcomes.'
+        desc: 'This case study details how Grazitti Interactive enabled Salesforce CPQ and billing flow testing for a Europe-based low-code modern application development platform.'
       },
       {
         title: 'Multi-Vendor Rental Marketplace Case Study',
