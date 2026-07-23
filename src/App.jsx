@@ -64,7 +64,7 @@ function Navigation() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
-        <Link to="/" className="logo">Vishnu Dass</Link>
+        <Link to="/" className="logo"></Link>
         <div className="nav-links">
           <Link to={getHashLink('#collaboration')}>How I Work</Link>
           <Link to={getHashLink('#gtm-projects')}>GTM Projects</Link>

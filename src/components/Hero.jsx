@@ -43,8 +43,7 @@ const Hero = () => {
                   boxShadow: '0 8px 24px rgba(249, 115, 22, 0.2)'
                 }} 
               />
-              <span className="hero-name-word hero-name-outline">Dass</span>
-              <span className="hero-name-word hero-name-dot">.</span>
+              <span className="hero-name-word" style={{ color: 'var(--deep-dark)' }}>Dass</span>
             </span>
           </h1>
 
