@@ -75,18 +75,32 @@ const Hero = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: '0.5rem',
-          color: 'var(--mid-gray)',
-          opacity: 0.7,
-          transition: 'opacity 0.3s ease',
-          cursor: 'pointer'
+          gap: '0.4rem',
+          color: 'var(--deep-dark)',
+          cursor: 'pointer',
+          padding: '0.75rem 1.25rem',
+          borderRadius: '100px',
+          background: 'var(--white)',
+          boxShadow: '0 8px 24px rgba(0,0,0,0.06)',
+          border: '1px solid var(--light-gray)',
+          transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)'
         }}
-        onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-        onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = 'translateX(-50%) translateY(6px)';
+          e.currentTarget.style.boxShadow = '0 12px 32px rgba(249,115,22,0.15)';
+          e.currentTarget.style.borderColor = 'var(--accent-border)';
+          e.currentTarget.style.color = 'var(--accent)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = 'translateX(-50%) translateY(0)';
+          e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.06)';
+          e.currentTarget.style.borderColor = 'var(--light-gray)';
+          e.currentTarget.style.color = 'var(--deep-dark)';
+        }}
         onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
       >
-        <span style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase' }}>Scroll</span>
-        <ArrowDown size={20} />
+        <span style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase' }}>Scroll</span>
+        <ArrowDown size={18} />
       </div>
     </section>
   );
