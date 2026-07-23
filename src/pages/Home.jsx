@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Collaboration />
       <GTMProjects />
       <Portfolio />
       <Toolkit />
