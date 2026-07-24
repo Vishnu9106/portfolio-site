@@ -15,11 +15,11 @@ const Contact = () => {
           </h2>
           
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap', marginBottom: '5rem' }}>
-            <a href="mailto:vishnu.dass@example.com" className="btn btn-white btn-glow">
+            <a href="mailto:creativevishnu1999@gmail.com" className="btn btn-white btn-glow">
               <Mail size={18} style={{ marginRight: '8px' }} />
-              Email Me
+              Gmail
             </a>
-            <a href="https://linkedin.com/in/vishnudass" target="_blank" rel="noreferrer" className="btn btn-outline-white">
+            <a href="https://www.linkedin.com/in/vishnudass1/" target="_blank" rel="noreferrer" className="btn btn-outline-white">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginRight: '8px' }}>
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect x="2" y="9" width="4" height="12"></rect>
@@ -27,11 +27,8 @@ const Contact = () => {
               </svg>
               LinkedIn
             </a>
-            <a href="mailto:contact@vishnudass.com" className="btn btn-outline-white">
-              <Mail size={18} /> Gmail
-            </a>
-            <a href="#" className="btn btn-outline-white">
-              <Download size={18} /> Resume / CV
+            <a href="/Vishnu_Dass_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-white">
+              <Download size={18} style={{ marginRight: '8px' }} /> Resume / CV
             </a>
           </div>
 
