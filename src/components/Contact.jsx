@@ -34,15 +34,7 @@ const Contact = () => {
 
         </div>
 
-        {/* Footer */}
-        <div style={{ paddingTop: '2rem', borderTop: '1px solid var(--inv-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-          <span style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.4)' }}>
-            &copy; {new Date().getFullYear()} Vishnu Dass. GTM & Revenue Operations.
-          </span>
-          <span style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.4)' }}>
-            Built for the transition.
-          </span>
-        </div>
+
       </div>
     </section>
   );

@@ -62,11 +62,7 @@ const Hero = () => {
             <strong>Always learning.</strong> A GTM engineer with an unfair marketing advantage. I have around 5 years of experience in content marketing. My expertise lies in building product messaging, creating marketing content, and tracking its performance. These days I am experimenting with building GTM systems that turn manual, repetitive work into automated pipelines.
           </p>
 
-          <div className="hero-cta" style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
-            <a href="/Vishnu_Dass_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn" style={{ padding: '0.75rem 2.5rem', fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--deep-dark)', color: 'var(--white)', borderRadius: '100px', textDecoration: 'none', transition: 'transform 0.2s' }} onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-2px)'} onMouseLeave={e => e.currentTarget.style.transform = 'none'}>
-              <Download size={18} /> View CV
-            </a>
-          </div>
+
 
 
         </div>
