@@ -36,6 +36,8 @@ const Hero = () => {
               <img 
                 src={heroImage} 
                 alt="Vishnu" 
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
                 style={{ 
                   height: '1.15em', 
                   width: '1.15em', 
@@ -46,7 +48,10 @@ const Hero = () => {
                   boxShadow: '0 15px 35px rgba(249, 115, 22, 0.25)',
                   border: '4px solid var(--white)',
                   position: 'relative',
-                  zIndex: 2 // Sits above the text
+                  zIndex: 2, // Sits above the text
+                  userSelect: 'none',
+                  WebkitUserDrag: 'none',
+                  pointerEvents: 'none'
                 }} 
               />
               <span className="hero-name-word" style={{ 
