@@ -27,7 +27,7 @@ const Contact = () => {
               </svg>
               LinkedIn
             </a>
-            <a href="/Vishnu_Dass_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-white btn-hover-orange">
+            <a style={{ pointerEvents: 'none', opacity: 0.5, cursor: 'not-allowed' }} className="btn btn-white btn-hover-orange">
               <Download size={18} style={{ marginRight: '8px' }} /> Resume / CV
             </a>
           </div>
