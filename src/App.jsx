@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { BrowserRouter, Routes, Route, useLocation, Link } from 'react-router-dom';
 import { Mail } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import Home from './pages/Home';
 import ProjectFlowDemo from './pages/ProjectFlowDemo';
 
@@ -101,6 +102,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projectflow" element={<ProjectFlowDemo />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
