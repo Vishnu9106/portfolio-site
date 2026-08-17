@@ -64,7 +64,7 @@ const Timeline = () => {
       <div className="container">
         <div ref={ref} className={`fade-up ${visible ? 'visible' : ''}`} style={{ textAlign: 'center', marginBottom: '6rem' }}>
 
-          <h2>My 6-Year Journey</h2>
+          <h2>My 5-Year Journey</h2>
         </div>
 
         <div className="horizontal-timeline">
