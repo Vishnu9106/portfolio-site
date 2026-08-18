@@ -1,6 +1,6 @@
 import React from 'react';
 import { useInView } from '../App';
-import { Database, Target, Search, Mail, Bot, BrainCircuit, Network, Webhook } from 'lucide-react';
+import { Database, Target, Search, Mail, Bot, BrainCircuit, Network, Webhook, FileText, LayoutGrid, Palette } from 'lucide-react';
 import { SiApollographql, SiN8N, SiHubspot, SiJavascript, SiJson, SiReact } from 'react-icons/si';
 
 const tools = [
@@ -12,7 +12,10 @@ const tools = [
   { name: 'REST APIs', icon: <Network size={22} color="#00A2D0" /> },
   { name: 'JSON', icon: <SiJson size={22} color="#000000" /> },
   { name: 'JavaScript', icon: <SiJavascript size={22} color="#F7DF1E" /> },
-  { name: 'React', icon: <SiReact size={22} color="#61DAFB" /> }
+  { name: 'React', icon: <SiReact size={22} color="#61DAFB" /> },
+  { name: 'Adobe Acrobat Pro', icon: <FileText size={22} color="#FF0000" /> },
+  { name: 'MS Office Suite', icon: <LayoutGrid size={22} color="#D83B01" /> },
+  { name: 'MS Paint', icon: <Palette size={22} color="#0078D7" /> }
 ];
 
 const Toolkit = () => {
