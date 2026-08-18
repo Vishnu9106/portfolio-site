@@ -64,7 +64,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="hero-subtitle" style={{ margin: '2rem auto', textAlign: 'center', maxWidth: '650px', lineHeight: '1.7', color: 'var(--dark-gray)' }}>
-            <strong>Always learning.</strong> A GTM engineer with an unfair marketing advantage. I have around 5 years of experience in building product messaging, creating marketing content, and tracking its performance. These days I am experimenting with building GTM systems that turn manual, repetitive work into automated pipelines.
+            <strong>Always learning.</strong> A B2B SaaS Content Strategist with an unfair technical advantage. I have 5 years of experience building product messaging, creating high-impact marketing collateral, and tracking content performance. Whether it's translating complex technical concepts for enterprise buyers or building automated pipelines to scale distribution, I bridge the gap between content and revenue.
           </p>
 
 
